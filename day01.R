@@ -1,3 +1,5 @@
+library(dplyr)
+
 day01 <- read.table("day01.txt", quote = "\"", comment.char = "")
 
 rw1 <- day01[,1]
